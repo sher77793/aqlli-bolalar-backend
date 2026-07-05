@@ -13,8 +13,8 @@ POST https://web-production-af7ae.up.railway.app/api/login
 Content-Type: application/json
 
 {
-  "email": "sher@test.com",
-  "password": "password1234"
+   "email": "newuser@example.com",
+"password": "password1234",
 }
 
 ### Health
