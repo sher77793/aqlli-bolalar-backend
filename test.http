@@ -1,9 +1,4 @@
-### 1. Health Check
-GET https://web-production-af7ae.up.railway.app/api/health
-
-###
-
-### 2. Register - Yangi user yaratish
+### Register
 POST https://web-production-af7ae.up.railway.app/api/register
 Content-Type: application/json
 
@@ -13,9 +8,7 @@ Content-Type: application/json
   "name": "Sher"
 }
 
-###
-
-### 3. Login - Kirish
+### Login
 POST https://web-production-af7ae.up.railway.app/api/login
 Content-Type: application/json
 
@@ -24,35 +17,5 @@ Content-Type: application/json
   "password": "password123"
 }
 
-###
-
-### 4. Get User Stats (USER_ID ni replace qil)
-GET https://web-production-af7ae.up.railway.app/api/user/stats/USER_ID
-
-###
-
-### 5. Get Puzzles - Mantiq savollarini olish
-GET https://web-production-af7ae.up.railway.app/api/puzzles/mantiq?difficulty=oson
-
-###
-
-### 6. Submit Answer - Javobni tekshirish
-POST https://web-production-af7ae.up.railway.app/api/submit-answer
-Content-Type: application/json
-
-{
-  "userId": "USER_ID",
-  "puzzleId": "PUZZLE_ID",
-  "answer": "4"
-}
-
-###
-
-### 7. Subscribe - Premium-ga o'tish
-POST https://web-production-af7ae.up.railway.app/api/subscribe
-Content-Type: application/json
-
-{
-  "userId": "USER_ID",
-  "months": 1
-}
+### Health
+GET https://web-production-af7ae.up.railway.app/api/health
