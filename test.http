@@ -3,9 +3,9 @@ POST https://web-production-af7ae.up.railway.app/api/register
 Content-Type: application/json
 
 {
-  "email": "sher@test.com",
-  "password": "password123",
-  "name": "Sher"
+  "email": "newuser@example.com",
+"password": "password1234",
+"name": "Test User"
 }
 
 ### Login
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
   "email": "sher@test.com",
-  "password": "password123"
+  "password": "password1234"
 }
 
 ### Health
